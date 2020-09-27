@@ -11,12 +11,12 @@ import org.apache.spark.rdd.RDD
 import java.util.regex.Pattern
 import java.util.regex.Matcher
 
-import Utilities._
+import utilities._
 
 /** Illustrates using SparkSQL with Spark Streaming, to issue queries on
  * Apache log data extracted from a stream on port 9999.
  */
-object s {
+object LogParserSQL {
 
   def main(args: Array[String]) {
 
